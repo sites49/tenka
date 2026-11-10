@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Мини-гостиница Тенька: мини-гостиница в Магадане</title>
-<meta name="description" content="Мини-гостиница Тенька, Магадан, Колымское шоссе, 4 к3, 1 этаж. Мини-гостиница на Колымском шоссе: трёхместные номера и места в общем номере, общая кухня, круглосуточное заселение. Бронирование через WhatsApp или по телефону.">
+<title>Тенька: мини-гостиница в Магадане</title>
+<meta name="description" content="Тенька, Магадан, Колымское шоссе, 4 к3, 1 этаж. Мини-гостиница на Колымском шоссе: трёхместные номера и места в общем номере, общая кухня, круглосуточное заселение. Бронирование через WhatsApp или по телефону.">
 <meta name="theme-color" content="#11160f">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%233f5a3a'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='17' fill='%23ffffff'%3E%D0%A2%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -278,7 +278,7 @@ footer nav { display: flex; flex-wrap: wrap; gap: 6px 22px }
       <div class="cta"><a class="btn" href="https://wa.me/79148519515" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg>Написать в WhatsApp</a>
         <a class="btn ghost" href="https://2gis.ru/magadan/firm/70000001039425168" target="_blank" rel="noopener">Маршрут в 2ГИС</a></div>
     </div>
-    <div class="map"><div id="map" role="region" aria-label="Мини-гостиница Тенька на карте"></div></div>
+    <div class="map"><div id="map" role="region" aria-label="Тенька на карте"></div></div>
   </div></div>
 </main>
 <footer><div class="wrap">
@@ -368,7 +368,7 @@ const initMap = () => {
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(m);
   L.marker(pt, { icon: L.divIcon({ className: "", html: '<div class="pin"></div>', iconSize: [44, 44], iconAnchor: [22, 44], popupAnchor: [0, -46] }) })
-    .addTo(m).bindPopup('<b>Мини-гостиница Тенька</b><br>Колымское шоссе, 4 к3, 1 этаж<br><a href="https://2gis.ru/magadan/firm/70000001039425168" target="_blank" rel="noopener">Маршрут в 2ГИС</a>');
+    .addTo(m).bindPopup('<b>Тенька</b><br>Колымское шоссе, 4 к3, 1 этаж<br><a href="https://2gis.ru/magadan/firm/70000001039425168" target="_blank" rel="noopener">Маршрут в 2ГИС</a>');
 };
 const mio = "IntersectionObserver" in window ? new IntersectionObserver(es => { if (es[0].isIntersecting) { initMap(); mio.disconnect() } }, { rootMargin: "400px" }) : null;
 addEventListener("load", () => mio ? mio.observe(mapEl) : initMap());
